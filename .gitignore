@@ -1,0 +1,562 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project specific
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.json
+data/processed/*.json
+logs/
+*.log
+*.sqlite
+*.db
+
+# Browser and playwright
+playwright-report/
+test-results/
+test-results.xml
+playwright/.cache/
+playwright-report/
+trace/
+
+# Streamlit
+.streamlit/
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+
+# Model files
+*.pkl
+*.pickle
+*.model
+*.joblib
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config.ini
+config.json
+secrets.json
+credentials.json
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache directories
+.cache/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Profiling
+*.prof
+*.profile
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Node modules (if any front-end components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.local/
+local/
+dev/
+development/
+
+# Test artifacts
+.coverage
+.pytest_cache/
+test-results/
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Security
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Monitoring and metrics
+.metrics
+.monitoring
+
+# Cloud provider files
+.aws/
+.azure/
+.gcp/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+*.vault
+
+# Local scripts that shouldn't be committed
+run_local.sh
+test_local.py
+debug_*.py
+
+# Experimental features
+experimental/
+sandbox/
+
+# Performance profiling
+*.prof
+*.profile
+*.trace
+
+# Generated documentation
+docs/generated/
+api/docs/generated/
+
+# Backup and archive files
+backup/
+archive/
+*.backup
+*.archive
+
+# Temporary analysis outputs
+analysis/
+outputs/
+results/
+*.results
+
+# Local configuration overrides
+config/local.py
+config/dev.py
+config/test.py
+
+# Database migrations (if applicable)
+migrations/
+*.sql
+
+# Third-party libraries
+lib/
+vendor/
+third_party/
+
+# User-specific files
+user_data/
+user_config/
+*.user
+
+# System files
+*.sys
+*.system
+
+# Lock files (keep package-lock.json but exclude others)
+package-lock.json
+yarn.lock
+poetry.lock
+
+# Experimental notebooks
+notebooks/experimental/
+notebooks/drafts/
+notebooks/archive/
+
+# Data science artifacts
+models/
+datasets/
+features/
+*.model
+*.dataset
+*.features
+
+# API keys and secrets (redundant but important)
+api_keys.txt
+secrets.txt
+credentials.txt
+*.key
+*.pem
+*.crt
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.dylib
+*.so
+
+# Package manager files
+Pipfile.lock
+poetry.lock
+conda-lock.yml
+
+# Virtual environments
+.conda/
+envs/
+venvs/
+
+# Local development tools
+.pre-commit-config.local
+.flake8
+.pylintrc.local
+
+# Testing
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Documentation
+docs/source/_build/
+docs/build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local data
+data/local/
+data/user/
+data/experimental/
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Local Netlify folder
+.netlify
+
+# Local Vercel folder
+.vercel
+
+# Local SvelteKit build/output folders
+.svelte-kit/
+
+# End of https://www.gitignore.io/api/python
