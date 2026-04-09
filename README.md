@@ -192,7 +192,7 @@ GET /api/v1/value-analysis              # Value-for-money rankings
 ### Environment Setup
 ```bash
 # Clone repository
-git clone https://github.com/username/LuggageIQ.git
+git clone https://github.com/MaazBhavnagri/LuggageIQ.git
 cd LuggageIQ
 
 # Setup environment
